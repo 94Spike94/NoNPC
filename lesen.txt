@@ -1,0 +1,10 @@
+Wie funktioniert das Skript?
+Konfigurationsdatei (config.lua): Du legst fest, welche Fahrzeugkategorien du deaktivieren oder aktivieren möchtest, indem du für jede Kategorie true (aktiv) oder false (deaktiv) setzt.
+
+Client-seitiges Skript (client.lua): Es durchsucht regelmäßig alle vorhandenen Fahrzeuge auf der Karte (alle 5 Sekunden) und entfernt Fahrzeuge, die zu deaktivierten Kategorien gehören.
+
+Manifest-Datei (fxmanifest.lua): Definiert die Metadaten und Ressourcen, die geladen werden sollen.
+
+Server-seitige Datei (server.lua): Diese Datei wird momentan nicht verwendet, könnte aber für spätere Erweiterungen genutzt werden.
+
+Du kannst die Kategorien nach Belieben aktivieren oder deaktivieren, indem du die entsprechenden Werte in der config.lua änderst.
